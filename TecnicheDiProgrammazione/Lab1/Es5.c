@@ -18,7 +18,7 @@ int main(int argc, char* argv[]){
     float op1, op2, result;
 
     printf("Inserire l'operazione che si vuole eseguire (+, -, /, *): ");
-    scanf(" %c", &choice);
+    choice = getchar();
     printf("Inserire il valore del primo operando: ");
     scanf("%f", &op1);
     printf("Inserire il valore del secondo operando: ");
